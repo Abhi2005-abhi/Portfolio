@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portofio-mine</title>
+    <script>
+      window.addEventListener("error", function (e) {
+        document.body.innerHTML += `<div style='background:red;color:white;position:fixed;top:0;left:0;z-index:99999;padding:20px;width:100%;font-size:16px;text-align:left;height:100vh;overflow:auto;'><h1 style='font-weight:bold;margin-bottom:10px;'>Runtime Crash Detected!</h1><pre style='white-space:pre-wrap;'>${e.error ? e.error.stack : e.message}</pre></div>`;
+      });
+      window.addEventListener("unhandledrejection", function (e) {
+        document.body.innerHTML += `<div style='background:red;color:white;position:fixed;top:0;left:0;z-index:99999;padding:20px;width:100%;font-size:16px;text-align:left;height:100vh;overflow:auto;'><h1 style='font-weight:bold;margin-bottom:10px;'>Unhandled Promise Rejection!</h1><pre style='white-space:pre-wrap;'>${e.reason ? e.reason.stack || e.reason : 'Unknown reasoning'}</pre></div>`;
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

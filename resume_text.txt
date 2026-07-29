@@ -1,0 +1,57 @@
+ABHIUDAYA PRATAP SINGH
++91 6306997124 — abhiudayasngh2005@gmail.com — LinkedIn — GitHub — LeetCode
+Professional Summary
+Computer Science Engineering student specializing in AI and Machine Learning, with hands-on experience designing, training, and
+deploying predictive models using Python and Scikit-learn. Skilled in data preprocessing, feature engineering, and model evaluation,
+with additional experience in full-stack web development using React.js and Node.js. Exposure to Generative AI concepts including
+Prompt Engineering, RAG, and LLM fundamentals.
+Education
+B.Tech in Computer Science Engineering2023 – 2027
+Vellore Institute of Technology, BhopalCGPA: 8.59/10
+Senior Secondary (12th) 2023
+Army Public School, LucknowPercentage: 77.5%
+Secondary School (10th) 2021
+Army Public School, LucknowPercentage: 90.0%
+Technical Skills
+•Programming Languages:Python, Java, JavaScript, SQL
+•Machine Learning & AI:Machine Learning, Data Analysis, Predictive Modeling, Scikit-learn, Pandas, NumPy
+•Generative AI:Prompt Engineering, Retrieval-Augmented Generation (RAG), Large Language Model (LLM) Fundamentals
+•Web Development:HTML, CSS, React.js, Node.js, REST APIs
+•Tools & Databases:Git, GitHub, VS Code, MySQL
+Experience
+Machine Learning and Full Stack Developer (Project-Based)Jan 2024 – Present
+Madhya Pradesh, India
+• Designed and implemented supervised machine learning models (Logistic Regression, Random Forest) for healthcare risk pre-
+diction systems, achieving up to [80]% prediction accuracy across a dataset of [1000] patient records.
+• Performed data cleaning, preprocessing, and feature engineering on [1,000]+ data points, improving model accuracy by [15]%
+and reducing prediction error rate.
+• Built and deployed a full-stack web application integrating ML models with a React.js frontend and backend APIs, reducing
+prediction response time to under [2] seconds.
+• Enabled real-time prediction functionality through efficient backend-to-frontend communication, supporting [30]+ concurrent
+user requests during testing.
+Projects
+Diabetes Prediction APP Jan 2024
+Tech Stack: Python, Scikit-learn, Pandas, NumPy, HTML, CSS, Streamlit
+GitHub — Live Demo
+• Developed a machine learning-based system to assess diabetes risk using key medical parameters.
+• Implemented Logistic Regression classification and optimized performance using precision and F1-score metrics.
+• Applied data preprocessing, feature selection, and model validation to improve prediction reliability.
+• Built and deployed an interactive web interface for instant health risk predictions.
+Smart Health AI Jul 2026 – Jul 2026
+Tech Stack: React.js, Node.js, Express.js, MongoDB, Mongoose, JWT, Google Gemini API
+GitHub — Live Demo
+• Designed and developed a full-stack healthcare platform enabling users to access AI-powered health assistance through a secure,
+interactive web application.
+• Integrated the Google Gemini API to deliver intelligent, health-related responses and real-time assistance to users.
+• Implemented a JWT-based authentication system for secure user registration and login.
+• Built a scalable REST API backend with Node.js and Express.js, paired with a responsive React.js frontend for a seamless user
+experience.
+• Utilized MongoDB with Mongoose for efficient storage and management of user data.
+• Developed a clean, modern UI/UX for intuitive, seamless interaction with the platform.
+Certifications
+• Deloitte Australia – Data Analytics Job Simulation, Forage (Jul 2025)
+• Applied Machine Learning in Python, Coursera (Dec 2025)
+• Computer Vision, Vityarthi (Feb 2026)
+• MATLAB Certified, MathWorks (Aug 2023)
+• Python Essentials, Vityarthi (Dec 2023)
+• Cloud Computing, NPTEL (May 2025)

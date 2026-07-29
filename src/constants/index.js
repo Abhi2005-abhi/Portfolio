@@ -14,7 +14,7 @@ export const PORTFOLIO_DATA = {
     name: "Abhiudaya Pratap Singh",
     role: "AI & Full Stack Developer",
     tagline: "Building Intelligent Applications with AI and Modern Web Technologies.",
-    about: "I am a B.Tech Computer Science (AI & ML) student passionate about building scalable web applications and AI-powered solutions. I enjoy solving real-world problems using React, Node.js, Machine Learning, and Cloud technologies. Currently seeking Software Engineering, Full Stack, Backend, and AI internships.",
+    about: "I am a Computer Science Engineering student specializing in AI and Machine Learning, with hands-on experience designing, training, and deploying predictive models. I am highly skilled in data preprocessing, feature engineering, and model evaluation, paired with deep expertise in full-stack web development using React.js and Node.js. My recent journey has also exposed me to Generative AI architectures, including Prompt Engineering, RAG, and LLM implementations.",
     contact: {
         email: "abhiudayasngh2005@gmail.com",
         linkedin: "https://www.linkedin.com/in/abhiudayapratapsingh",

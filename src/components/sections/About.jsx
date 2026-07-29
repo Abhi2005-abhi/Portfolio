@@ -56,18 +56,28 @@ export default function About() {
                                 Get to know me!
                             </h3>
 
-                            <p className="text-gray-300 leading-relaxed max-w-xl text-lg font-light mb-8">
+                            <p className="text-gray-300 leading-relaxed max-w-xl text-lg font-light mb-8 text-balance">
                                 {PORTFOLIO_DATA.about}
                             </p>
 
-                            <div className="flex flex-col sm:flex-row gap-6 mt-8">
-                                <div className="bg-[#0B0B0B]/50 p-4 rounded-2xl border border-white/5 flex-1">
-                                    <h4 className="text-accent-purple font-bold text-xl mb-1">{PORTFOLIO_DATA.education.cgpa}</h4>
-                                    <p className="text-gray-400 text-sm">CGPA</p>
+                            <div className="grid grid-cols-2 gap-4 mt-8">
+                                <div className="bg-gradient-to-br from-[#0B0B0B]/80 to-accent-purple/20 p-5 rounded-2xl border border-accent-purple/20 flex flex-col justify-center shadow-inner group transition-all hover:bg-accent-purple/30">
+                                    <h4 className="text-accent-purple font-extrabold text-3xl mb-1 group-hover:scale-110 transition-transform origin-left">{PORTFOLIO_DATA.education.cgpa}</h4>
+                                    <p className="text-gray-300 text-xs font-mono uppercase tracking-widest">Current CGPA</p>
                                 </div>
-                                <div className="bg-[#0B0B0B]/50 p-4 rounded-2xl border border-white/5 flex-1">
-                                    <h4 className="text-accent-blue font-bold text-xl mb-1">200+</h4>
-                                    <p className="text-gray-400 text-sm">DSA Problems</p>
+                                <div className="bg-gradient-to-br from-[#0B0B0B]/80 to-accent-blue/20 p-5 rounded-2xl border border-accent-blue/20 flex flex-col justify-center shadow-inner group transition-all hover:bg-accent-blue/30">
+                                    <h4 className="text-accent-blue font-extrabold text-3xl mb-1 group-hover:scale-110 transition-transform origin-left">200+</h4>
+                                    <p className="text-gray-300 text-xs font-mono uppercase tracking-widest">DSA Solved</p>
+                                </div>
+                                <div className="bg-gradient-to-br from-[#0B0B0B]/80 to-[#06B6D4]/20 p-5 rounded-2xl border border-[#06B6D4]/20 flex justify-between items-center shadow-inner group transition-all hover:bg-[#06B6D4]/30 col-span-2">
+                                    <div>
+                                        <h4 className="text-[#06B6D4] font-bold text-lg mb-1 flex items-center gap-2">
+                                            <span className="w-2 h-2 rounded-full bg-[#06B6D4] animate-pulse"></span>
+                                            AI & Full Stack Specialization
+                                        </h4>
+                                        <p className="text-gray-300 text-xs font-mono uppercase tracking-widest">MERN + Generative AI Ready</p>
+                                    </div>
+                                    <div className="text-3xl opacity-50 group-hover:opacity-100 transition-opacity drop-shadow-[0_0_10px_#06b6d4]">🚀</div>
                                 </div>
                             </div>
                         </div>
